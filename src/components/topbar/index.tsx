@@ -4,7 +4,7 @@ import './TopBar.css';
 
 const TopBar: React.FC = () => {
   return (
-    <header className="top-bar">
+    <section className="top-bar">
       <div className="top-bar-item">
         <PiShieldCheckBold className="icon" />
         <span>Compra <strong>100% segura</strong></span>
@@ -17,7 +17,7 @@ const TopBar: React.FC = () => {
         <PiCreditCardBold className="icon" />
         <span><strong>Parcele</strong> suas compras</span>
       </div>
-    </header>
+    </section>
   );
 };
 
