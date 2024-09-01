@@ -1,6 +1,6 @@
 import React from 'react';
 import './Banner.css';
-import bannerImage from '../../assets/banner.png'; 
+import bannerImage from '../../assets/imagebanner/banner.png'; 
 import { banneritems } from "../../contents/bannerItems"
 
 const Banner: React.FC = () => {
