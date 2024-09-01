@@ -1,13 +1,21 @@
 
 import '../globals.css'
 import TopBar from '../components/topbar'
+import Banner from '../components/banner'
+import Header from '../components/header'
 
 function Home() {
 
   return (
-   <section>
-    <TopBar />
-   </section>
+   <div>
+    <header>
+      <TopBar />
+      <Header />
+    </header>
+    <nav>
+      <Banner />
+    </nav>
+   </div>
   )
 }
 
