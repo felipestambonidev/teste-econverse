@@ -8,7 +8,6 @@ import "./TopBar.css";
 
 const TopBar: React.FC = () => {
   return (
-    <section>
       <section className="top-bar">
         <div className="top-bar-item">
           <PiShieldCheckBold className="icon" />
@@ -29,8 +28,6 @@ const TopBar: React.FC = () => {
           </span>
         </div>
       </section>
-      <hr />
-    </section>
   );
 };
 
