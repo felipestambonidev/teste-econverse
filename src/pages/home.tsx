@@ -8,6 +8,7 @@ import RelatedProducts from "../components/relatedproducts";
 import CardPartners from "../components/partners";
 
 
+
 function Home() {
   return (
     <div>
