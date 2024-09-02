@@ -1,0 +1,175 @@
+.categories-bar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 120px;
+  padding: 10px;
+  width: 100%;
+
+  .category {
+    font-weight: bold;
+    color: #9F9F9F;
+    cursor: pointer;
+    font-size: 16px;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    transition: color 0.3s ease;
+    white-space: nowrap;
+
+    &:hover {
+      color: #ff007f;
+    }
+
+    &.active {
+      color: #ff007f;
+      font-weight: bold;
+      font-size: 15px;
+    }
+
+    .icon img {
+      width: 15px;
+      height: 15px;
+      transition: color 0.3s ease;
+      cursor: pointer;
+    }
+  }
+
+  @media (max-width: 1720px) {
+    gap: 100px;
+  }
+
+  @media (max-width: 1570px) {
+    gap: 90px;
+
+    .category {
+      font-size: 14px;
+
+      &.active {
+        font-size: 13px;
+      }
+    }
+  }
+
+  @media (max-width: 1336px) {
+    gap: 85px;
+
+    .category {
+      font-size: 13px;
+
+      &.active {
+        font-size: 12px;
+      }
+    }
+  }
+
+  @media (max-width: 1238px) {
+    gap: 78px;
+
+    .category {
+      font-size: 12px;
+
+      &.active {
+        font-size: 11px;
+      }
+    }
+  }
+
+  @media (max-width: 1136px) {
+    gap: 75px;
+
+    .category {
+      font-size: 11px;
+
+      &.active {
+        font-size: 10px;
+      }
+    }
+  }
+
+  @media (max-width: 1046px) {
+    gap: 60px;
+
+    .category {
+      font-size: 10px;
+
+      &.active {
+        font-size: 9px;
+      }
+    }
+  }
+
+  @media (max-width: 768px) {
+    justify-content: flex-start;
+    gap: 20px;
+    overflow-x: auto;
+    scrollbar-width: none;
+
+    .category {
+      font-size: 9px;
+
+      &.active {
+        font-size: 8px;
+      }
+    }
+
+    &::-webkit-scrollbar {
+      display: none;
+    }
+
+    .icon img {
+      width: 13px;
+      height: 13px;
+    }
+  }
+
+  @media (max-width: 640px) {
+    .category {
+      font-size: 8px;
+
+      &.active {
+        font-size: 7px;
+      }
+
+      .icon img {
+        width: 12px;
+        height: 12px;
+      }
+    }
+  }
+
+  @media (max-width: 480px) {
+    gap: 30px;
+
+    .category {
+      font-size: 10px;
+
+      &.active {
+        font-size: 10px;
+      }
+
+      .icon img {
+        width: 11px;
+        height: 11px;
+      }
+    }
+  }
+
+  @media (max-width: 400px) {
+    gap: 30px;
+
+    .category {
+      font-size: 10px;
+
+      &.active {
+        font-size: 10px;
+      }
+    }
+  }
+}
+
+.line {
+  width: 90%;
+  margin: 0 auto;
+  border-top: 1px solid #F0F0F0;
+}

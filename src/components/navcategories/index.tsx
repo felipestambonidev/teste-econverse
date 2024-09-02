@@ -1,9 +1,6 @@
 import React from "react";
-import "./NavCategories.css";
-import {
-  navcategoriesitems,
-  TnavCategories,
-} from "../../contents/CategoriesNav";
+import "./NavCategories.scss";
+import { navcategoriesitems, TnavCategories } from "../../contents/CategoriesNav";
 
 const NavCategories: React.FC = () => {
   return (
@@ -22,7 +19,6 @@ const NavCategories: React.FC = () => {
         ))}
       </div>
     </div>
-  
   );
 };
 
