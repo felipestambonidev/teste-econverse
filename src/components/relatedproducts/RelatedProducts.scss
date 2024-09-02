@@ -2,36 +2,6 @@
   text-align: center;
   margin: 0;
 
-  .title {
-    font-size: 30px;
-    font-weight: bold;
-    color: #f06392;
-    position: relative;
-    margin-bottom: 1rem;
-    display: inline-block;
-    padding: 0 20px;
-
-    &::before,
-    &::after {
-      content: '';
-      display: block;
-      width: 160%;
-      height: 1px;
-      background: #ccc;
-      position: absolute;
-      top: 50%;
-      transform: translateY(-50%);
-    }
-
-    &::before {
-      left: -170%;
-    }
-
-    &::after {
-      right: -170%;
-    }
-  }
-
   .categories {
     display: flex;
     flex-wrap: wrap;

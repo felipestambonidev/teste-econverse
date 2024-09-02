@@ -1,10 +1,11 @@
 import React from 'react';
 import './RelatedProducts.scss';
+import Title from '../titlerelatedproducts';
 
 const RelatedProducts: React.FC = () => {
   return (
     <div className="related-products">
-      <h2 className="title">Produtos relacionados</h2>
+      <Title title='Produtos Relacionados' />
       <div className="categories">
         <div className="category-itempro ative">CELULAR</div>
         <div className="category-itempro">ACESSÓRIOS</div>
