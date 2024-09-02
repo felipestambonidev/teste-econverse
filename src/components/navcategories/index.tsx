@@ -22,6 +22,7 @@ const NavCategories: React.FC = () => {
         ))}
       </div>
     </div>
+  
   );
 };
 
