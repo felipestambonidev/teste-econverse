@@ -1,5 +1,5 @@
 import React from 'react';
-import { cardcategoriesitems, TcardCategories } from "../../contents/cardCategories" ;
+import { cardcategoriesitems, TcardCategories } from "../../contents/CategoriesCard" ;
 import './CardCategories.css';
 
 const Categories: React.FC = () => {

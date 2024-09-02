@@ -3,7 +3,7 @@ import "./NavCategories.css";
 import {
   navcategoriesitems,
   TnavCategories,
-} from "../../contents/navCategories";
+} from "../../contents/CategoriesNav";
 
 const NavCategories: React.FC = () => {
   return (
