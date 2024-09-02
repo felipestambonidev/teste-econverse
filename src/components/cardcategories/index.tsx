@@ -1,6 +1,6 @@
 import React from 'react';
-import { cardcategoriesitems, TcardCategories } from "../../contents/CategoriesCard" ;
-import './CardCategories.css';
+import { cardcategoriesitems, TcardCategories } from "../../contents/CategoriesCard";
+import './CardCategories.scss'; 
 
 const Categories: React.FC = () => {
   return (
