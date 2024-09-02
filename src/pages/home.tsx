@@ -5,6 +5,7 @@ import Header from "../components/header";
 import NavCategories from "../components/navcategories";
 import Categories from "../components/cardcategories";
 import RelatedProducts from "../components/relatedproducts";
+import CardPartners from "../components/partners";
 
 
 function Home() {
@@ -19,6 +20,7 @@ function Home() {
         <Banner />
         <Categories />
         <RelatedProducts />
+        <CardPartners />
       </nav>
     </div>
   );
