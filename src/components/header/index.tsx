@@ -1,5 +1,5 @@
 import React from "react";
-import "./Header.css";
+import "./Header.scss";
 import { FaSearch } from "react-icons/fa";
 import logovtex from "../../assets/imagesheader/logo.png";
 import iconbox from "../../assets/imagesheader/boxicon.png";
