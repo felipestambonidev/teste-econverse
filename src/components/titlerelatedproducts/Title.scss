@@ -5,7 +5,7 @@
   text-align: center;
   margin: 0;
   width: 100%;
-  padding: 0 50px; // Adicionando padding nas laterais
+  padding: 0 50px; 
 }
 
 .title-related {
@@ -19,19 +19,19 @@
 .line-related {
   flex-grow: 1;
   height: 2px;
-  background-color: #868686;
-  margin: 0 30px; // Ajustando a margem para não encostar nas laterais
+  background-color: #DEDEDE; 
+  margin: 0 30px; 
 
   @media (min-width: 1700px) {
     margin: 0 50px; 
   }
 
   @media (max-width: 768px) {
-    margin: 0 10px; // Reduzindo a margem para telas menores
+    margin: 0 10px; 
   }
 
   @media (max-width: 500px) {
-    margin: 0 5px; // Reduzindo ainda mais a margem
+    margin: 0 5px; 
   }
 }
 
