@@ -1,0 +1,24 @@
+.container-relatedproducts {
+  display: flex;
+  flex-direction: column;
+
+  .title-h2 {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    size: 15px;
+    width: 100%; 
+  }
+
+  @media (max-width: 768px) {
+    .title-h2 {
+      font-size: 12px;
+    }
+  }
+  
+  @media (max-width: 500px) {
+    .title-h2 {
+      font-size: 12px;
+    }
+  }
+}
