@@ -5,9 +5,10 @@
   text-align: center;
   margin: 0;
   width: 100%;
+  padding: 0 50px; // Adicionando padding nas laterais
 }
 
-.title {
+.title-related {
   margin: 0 30px;
   white-space: nowrap;
   font-size: 18px;
@@ -15,41 +16,41 @@
   color: #f06392;
 }
 
-.line {
+.line-related {
   flex-grow: 1;
   height: 2px;
-  background-color: #ccc;
-  margin: 0 100px;
+  background-color: #868686;
+  margin: 0 30px; // Ajustando a margem para não encostar nas laterais
 
   @media (min-width: 1700px) {
-    margin: 0 150px; 
+    margin: 0 50px; 
   }
 
   @media (max-width: 768px) {
-    margin: 0 20px;
+    margin: 0 10px; // Reduzindo a margem para telas menores
   }
 
   @media (max-width: 500px) {
-    margin: 0 10px;
+    margin: 0 5px; // Reduzindo ainda mais a margem
   }
 }
 
 @media (min-width: 1700px) {
-  .title {
+  .title-related {
     font-size: 30px;
     margin: 0 50px;
   }
 }
 
 @media (max-width: 768px) {
-  .title {
+  .title-related {
     font-size: 16px;
     margin: 0 15px;
   }
 }
 
 @media (max-width: 500px) {
-  .title {
+  .title-related {
     font-size: 17px;
     margin: 0 10px;
   }

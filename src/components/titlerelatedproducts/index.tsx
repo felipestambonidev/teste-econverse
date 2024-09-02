@@ -9,7 +9,7 @@ const Title: React.FC<TitleWithLinesProps> = ({ title }) => {
   return (
     <div className="title-container">
       <div className="line"></div>
-      <h1 className="title">{title}</h1>
+      <h1 className="title-related">{title}</h1>
       <div className="line"></div>
     </div>
   );
