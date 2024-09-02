@@ -1,22 +1,25 @@
 import React from "react";
 import "./NavCategories.css";
-import crow from "../../assets/navcategories/crow.png";
+import {
+  navcategoriesitems,
+  TnavCategories,
+} from "../../contents/navcategories";
 
 const NavCategories: React.FC = () => {
   return (
     <div>
       <div className="line" />
       <div className="categories-bar">
-        <div className="category">TODAS CATEGORIAS</div>
-        <div className="category">SUPERMERCADO</div>
-        <div className="category">LIVROS</div>
-        <div className="category">MODA</div>
-        <div className="category">LANÇAMENTOS</div>
-        <div className="active">OFERTAS DO DIA</div>
-        <div className="category">
-          <img src={crow} className="icon" alt="Crow" />{" "}
-          ASSINATURA
-        </div>
+        {navcategoriesitems.map((item: TnavCategories, index: number) => (
+          <div
+            key={index}
+            className={`category ${item.active ? "active" : ""}`}>
+            {item.icon ? (
+              <img src={item.icon} className="icon" alt={item.paragraph} />
+            ) : null}
+            {item.paragraph}
+          </div>
+        ))}
       </div>
     </div>
   );
