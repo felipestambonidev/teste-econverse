@@ -22,7 +22,7 @@
   justify-items: center;
   align-items: center;
   transition: color 0.3s ease;
-  white-space: nowrap; /* Evita quebra de linha nos itens */
+  white-space: nowrap; /
 }
 
 .category:hover {
@@ -33,13 +33,13 @@
   color: #ff007f;
   font-weight: bold;
   cursor: pointer;
-  font-size: 15px; /* Diminuindo o tamanho da fonte para evitar quebra de linha */
-  white-space: nowrap; /* Evita quebra de linha nos itens ativos */
+  font-size: 15px; 
+  white-space: nowrap; 
 }
 
 .icon img {
-  width: 15px; /* Diminuindo o tamanho da coroa */
-  height: 15px; /* Diminuindo o tamanho da coroa */
+  width: 15px; 
+  height: 15px; 
   transition: color 0.3s ease;
   cursor: pointer;
 }
@@ -61,7 +61,7 @@
   }
 
   .active {
-    font-size: 13px; /* Ajustando tamanho da fonte no ativo para corresponder ao contexto */
+    font-size: 13px; 
   }
 }
 
@@ -117,11 +117,11 @@
   }
 
   .active {
-    font-size: 9px; /* Ajuste para tamanhos menores */
+    font-size: 9px; 
   }
 }
 
-/* Mobile - Ajuste para rolagem horizontal e diminuição progressiva da fonte */
+
 @media (max-width: 768px) {
   .categories-bar {
     justify-content: flex-start;
@@ -135,7 +135,7 @@
   }
 
   .active {
-    font-size: 8px; /* Diminuindo a fonte do ativo ainda mais */
+    font-size: 8px; 
   }
 
   .categories-bar::-webkit-scrollbar {
@@ -143,23 +143,23 @@
   }
 
   .icon img {
-    width: 13px; /* Diminuindo a coroa ainda mais no mobile */
+    width: 13px; 
     height: 13px;
   }
 }
 
-/* Adicionando media queries para tamanhos menores */
+
 @media (max-width: 640px) {
   .category {
     font-size: 8px;
   }
 
   .active {
-    font-size: 7px; /* Continuando a redução para dispositivos menores */
+    font-size: 7px; 
   }
 
   .icon img {
-    width: 12px; /* Ajuste adicional da coroa */
+    width: 12px; 
     height: 12px;
   }
 }
@@ -179,7 +179,7 @@
   }
 
   .icon img {
-    width: 11px; /* Ajuste adicional da coroa */
+    width: 11px; 
     height: 11px;
   }
 }
@@ -193,7 +193,7 @@
   }
 
   .active {
-    font-size: 10px; /* Reduzindo ainda mais o ativo para evitar quebras */
+    font-size: 10px; 
   }
 
 
