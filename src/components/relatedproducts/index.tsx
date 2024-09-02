@@ -1,5 +1,5 @@
 import React from 'react';
-import './RelatedProducts.css';
+import './RelatedProducts.scss';
 
 const RelatedProducts: React.FC = () => {
   return (
