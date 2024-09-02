@@ -6,6 +6,7 @@ import NavCategories from "../components/navcategories";
 import Categories from "../components/cardcategories";
 import RelatedProducts from "../components/relatedproducts";
 import CardPartners from "../components/partners";
+import CardRelatedProducts from "../components/cardrelatedproducts";
 
 
 
@@ -22,6 +23,7 @@ function Home() {
         <Categories />
         <RelatedProducts />
         <CardPartners />
+        <CardRelatedProducts />
       </nav>
     </div>
   );
