@@ -44,7 +44,7 @@
 /* Responsividade */
 @media (max-width: 1200px) {
   .categories-container {
-    justify-content: flex-start; /* Alinha à esquerda */
+    justify-content: flex-start; 
     gap: 60px;
   }
 }
