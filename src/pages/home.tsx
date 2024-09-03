@@ -7,6 +7,7 @@ import Categories from "../components/cardcategories";
 import RelatedProducts from "../components/relatedproducts";
 import CardPartners from "../components/partners";
 import CardRelatedProducts from "../components/cardrelatedproducts";
+import Footer from "../components/footer";
 
 
 
@@ -25,6 +26,9 @@ function Home() {
         <CardPartners />
         <CardRelatedProducts />
       </nav>
+      <footer>
+        <Footer />
+      </footer>
     </div>
   );
 }
